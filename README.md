@@ -23,7 +23,7 @@ A Signup form API built with Django, Django REST Framework, Djoser, and JWT toke
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/Melaku05/Signup-form.git
-   cd signup-form-api
+   cd signup-form
 
 
 2. **Create a virtual environment and install packages**:
