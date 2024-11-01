@@ -36,6 +36,6 @@ A Signup form API built with Django, Django REST Framework, Djoser, and JWT toke
 
 3. **Running the Project, and Sginup**:
  ```bash
-python manage.py migrate && \
-python manage.py runserver && \
-http://localhost:8000/auth/users/ 
+   python manage.py migrate && \
+   python manage.py runserver && \
+   http://localhost:8000/auth/users/ 
