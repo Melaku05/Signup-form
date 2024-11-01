@@ -34,7 +34,7 @@ A Signup form API built with Django, Django REST Framework, Djoser, and JWT toke
    pip install -r requirements-dev.txt
 
 
-3. **Running the Projec, and Sginup**:
+3. **Running the Project, and Sginup**:
  ```bash
 python manage.py migrate && \
 python manage.py runserver && \
