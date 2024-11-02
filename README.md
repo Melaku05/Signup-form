@@ -54,13 +54,14 @@ A full-stack Signup form application built with Django, Django REST Framework, D
 
 
 
-```
+
 
 5. **Running the frontend**:
-```bash
+```
    cd frontend
    npm install
    npm start
+   
 
 
 ![Screenshot from 2024-11-02 19-28-19](https://github.com/user-attachments/assets/01afb75b-9d5c-4e13-9965-ca98c6ad2187)
