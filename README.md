@@ -51,18 +51,19 @@ A full-stack Signup form application built with Django, Django REST Framework, D
    python manage.py migrate && \
    python manage.py runserver && \
    http://localhost:8000/auth/users/ 
-
-
-
-
-
-5. **Running the frontend**:
 ```
+
+
+
+
+### 5. Running the frontend
+
 ```
    cd frontend
    npm install
    npm start
 ```
+
    
 
 
