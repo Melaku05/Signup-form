@@ -22,7 +22,7 @@ A full-stack Signup form application built with Django, Django REST Framework, D
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/Melaku05/Signup-form.git
-   cd Signup-form
+   cd Signup-form/backend
 
 
 2. **Create a virtual environment and install packages**:
