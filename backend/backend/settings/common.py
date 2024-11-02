@@ -103,7 +103,7 @@ REST_FRAMEWORK = {
 DJOSER = {
     "LOGIN_FIELD": "email",
     "SEND_ACTIVATION_EMAIL": True,
-    "ACTIVATION_URL": "auth/users/activation/?{uid}&token={token}/",
+    "ACTIVATION_URL": "auth/users/activation/?uid={uid}&token={token}",
     "PASSWORD_RESET_CONFIRM_URL": "auth/users/reset_password_confirm/?uid={uid}&token={token}",
     "SERIALIZERS": {
         "user_create": "core.serializers.CustomUserCreateSerializer",
@@ -117,6 +117,10 @@ SIMPLE_JWT = {
     "ACCESS_TOKEN_LIFETIME": timedelta(minutes=60),
     "REFRESH_TOKEN_LIFETIME": timedelta(days=1),
 }
+
+DOMAIN = 'localhost:3000'
+
+SITE_NAME = 'AAK TELE-SCIENCE, INC'
 
 AUTH_USER_MODEL = "core.CustomUser"
 
